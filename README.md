@@ -25,6 +25,8 @@ python download_w_frm_hf.py
 
 This will download the weights to the `./weight_hf` directory without using symlinks.
 
+### Copy supplemental folder from ./weight_hf/supplemental to ./supplemental
+
 ## Inference
 
 ### Generating Audio
