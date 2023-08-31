@@ -8,9 +8,9 @@ This project uses Python version 3.9.0.
 ### Installing Packages
 To install the required packages, run the following command:
 
-\`\`\`bash
+```bash
 pip install -r requirements.txt
-\`\`\`
+```
 
 ## Downloading Pre-trained TTS Weights
 
@@ -19,9 +19,9 @@ This project uses a pre-trained TTS model from Hugging Face, trained with YouTTS
 
 To download the weights, run the following script:
 
-\`\`\`bash
+```bash
 python download_w_frm_hf.py
-\`\`\`
+```
 
 This will download the weights to the `./weight_hf` directory without using symlinks.
 
@@ -30,13 +30,13 @@ This will download the weights to the `./weight_hf` directory without using syml
 ### Generating Audio
 To generate audio, run the following script:
 
-\`\`\`bash
+```bash
 python infer_n_save_audio.py
-\`\`\`
+```
 
 ### Hosting with FastAPI
 To host the TTS model using FastAPI, run the following script:
 
-\`\`\`bash
+```bash
 python infer_fast_api.py
-\`\`\`
+```
